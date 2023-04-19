@@ -6,7 +6,8 @@ resources:
 #  - application-argo-rollouts.yaml
 #  - application-service-mesh-test.yaml
 #  - application-service-mesh-qa.yaml
-#  - application-bookinfo-test.yaml
+  - application-bookinfo-base.yaml
+  - application-tsis-osgi-controller.yaml
 #  - application-bookinfo-qa.yaml
-  - application-exoplanets.yaml
-  - namespaces.yaml
+#  - application-exoplanets.yaml
+#  - namespaces.yaml
