@@ -6,7 +6,7 @@ metadata:
 spec:
   destination:
     server: https://kubernetes.default.svc
-    namespace: chartdemo
+    namespace: chartdemo2
   project: default
   source:
     path: exokustom
