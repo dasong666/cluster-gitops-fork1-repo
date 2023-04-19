@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: exoplanets-test
+  namespace: openshift-gitops
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: chartdemo
+  project: default
+  source:
+    path: exokustom
+    repoURL: https://github.com/dasong666/helm-kustomize-labs.git
+    targetRevision: HEAD
+  syncPolicy:
+    automated: {}
