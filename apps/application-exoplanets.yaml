@@ -9,7 +9,7 @@ spec:
     namespace: chartdemo2
   project: default
   source:
-    path: exokustom
+    path: exokustom/overlays/dev-test
     repoURL: https://github.com/dasong666/helm-kustomize-labs.git
     targetRevision: HEAD
   syncPolicy:
