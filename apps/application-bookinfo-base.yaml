@@ -9,7 +9,7 @@ spec:
     namespace: bookinfo-base
   project: default
   source:
-    path: bookinfo/instance/base
+    path: bookinfo/instance/overlays
     repoURL: https://github.com/dasong666/my-demo-apps.git
     targetRevision: HEAD
   syncPolicy:
