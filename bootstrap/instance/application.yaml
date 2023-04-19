@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: apps
-    repoURL: $REPO_URL
+    repoURL: https://github.com/dasong666/cluster-gitops-fork1-repo.git
     targetRevision: HEAD
   syncPolicy:
     automated: {}

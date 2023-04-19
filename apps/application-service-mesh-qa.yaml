@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: servicemesh/instance/overlays/qa
-    repoURL: https://github.com/RHC-STP-OSSM/cluster-gitops
+    repoURL: https://github.com/dasong666/cluster-gitops-fork1-repo.git
     targetRevision: HEAD
   syncPolicy:
     automated: {}

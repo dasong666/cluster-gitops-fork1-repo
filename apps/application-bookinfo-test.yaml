@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: envs/test
-    repoURL: https://github.com/RHC-STP-OSSM/gitops-app-bookinfo.git
+    repoURL: https://github.com/dasong666/gitops-app-bookinfo-fork1.git
     targetRevision: HEAD
   syncPolicy:
     automated: {}
