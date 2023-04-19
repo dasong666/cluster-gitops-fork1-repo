@@ -5,7 +5,7 @@ resources:
 #  - application-service-mesh-operators.yaml
 #  - application-argo-rollouts.yaml
 #  - application-service-mesh-test.yaml
-#  - application-service-mesh-qa.yaml
+  - application-helm.yaml
   - application-bookinfo-base.yaml
   - application-tsis-osgi-controller.yaml
 #  - application-bookinfo-qa.yaml
