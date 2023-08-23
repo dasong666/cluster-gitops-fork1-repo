@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: helm-app-exochart
+  namespace: openshift-gitops
+spec:
+  destination:
+    namespace: demo1
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    path: 
+    repoURL: https://github.com/dasong666/helm-kustomize-labs/tree/main/exochart
+    targetRevision: main
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
