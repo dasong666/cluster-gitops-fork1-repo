@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: helm/argo-app
+    path: helm/helmfile/demo
     repoURL: https://github.com/christianh814/gitops-examples
     targetRevision: main
   syncPolicy:
